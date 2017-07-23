@@ -1,5 +1,5 @@
 ifneq ($(KERNELRELEASE),)
-	obj-m:=01_module.o
+	obj-m:=01_simplest_module.o
 else
 	KERNELDIR:=/lib/modules/$(shell uname -r)/build
 
